@@ -1,0 +1,139 @@
+body * {
+    /* box-sizing: border-box; */
+    /* border: 1px solid seagreen; */
+    
+    color: seashell;
+}
+/* Generic classes */
+body {
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    text-align: center;
+    background-color: black;
+}
+
+/* Flex container */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Navbar section */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    opacity: 0.9;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+}
+nav .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: underline;
+    list-style: none;
+}
+
+.navbar li {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+nav img {
+    display: inline;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+/* Header Section */
+.header {
+    background-image: url("/resources/images/img-mission-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.headingText {
+    background-color: black;
+}
+
+/* Tea of the Month section */
+
+.tea {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.teaCards {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+
+}
+.teaCard img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+/* Locations section */
+.locations {
+    background-image: url("/resources/images/img-locations-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+}
+
+.locations h2 {
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+.locationCards {
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+/* footer section */
+
+.footerInfo {
+    height: 200px;
+}
+
+.footerInfo h2 {
+    margin-top: 5px;
+}
+footer .copyright {
+    text-align: left;
+    margin-left: 20px;
+}
